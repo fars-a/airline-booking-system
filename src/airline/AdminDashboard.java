@@ -38,20 +38,26 @@ public class AdminDashboard extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(0, 0, 102));
         jLabel1.setText("ADMIN DASHBOARD");
 
+        jButton1.setBackground(new java.awt.Color(102, 204, 255));
         jButton1.setText("Add Flight");
         jButton1.addActionListener(this::jButton1ActionPerformed);
 
+        jButton2.setBackground(new java.awt.Color(102, 204, 255));
         jButton2.setText("View Flight");
         jButton2.addActionListener(this::jButton2ActionPerformed);
 
+        btnViewBookings.setBackground(new java.awt.Color(102, 204, 255));
         btnViewBookings.setText("View Bookings");
         btnViewBookings.addActionListener(this::btnViewBookingsActionPerformed);
 
+        jButton4.setBackground(new java.awt.Color(102, 204, 255));
         jButton4.setText("Logout");
         jButton4.addActionListener(this::jButton4ActionPerformed);
 
+        jButton5.setBackground(new java.awt.Color(102, 204, 255));
         jButton5.setText("Back");
         jButton5.addActionListener(this::jButton5ActionPerformed);
 
